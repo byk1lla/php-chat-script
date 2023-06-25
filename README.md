@@ -1,6 +1,11 @@
 # PHP-Chat-Uygulamasi
 
-Bu proje, basit bir mesajlaşma uygulamasını içermektedir.
+
+
+Bu proje, kullanıcıların mesajlaşmasını sağlayan basit bir web uygulamasıdır. Uygulama dosyaları ve bileşenleri belirli işlevleri yerine getirmek için düzenlenmiştir. Ayrıca hata sayfaları da sağlanmıştır. Bu projeyi kullanarak kullanıcılar birbirleriyle iletişim kurabilir ve mesajlaşabilirler.
+Aşağıda Dosya İçeriği Bulunmaktadır.
+
+---
 
 ## Dosya İçerikleri
 
@@ -43,6 +48,3 @@ Bu proje, basit bir mesajlaşma uygulamasını içermektedir.
 - `register.php`: Kayıt sayfası
 - `user.php`: Kullanıcı sayfası
 
----
-
-Bu proje, kullanıcıların mesajlaşmasını sağlayan basit bir web uygulamasıdır. Uygulama dosyaları ve bileşenleri belirli işlevleri yerine getirmek için düzenlenmiştir. Ayrıca hata sayfaları da sağlanmıştır. Bu projeyi kullanarak kullanıcılar birbirleriyle iletişim kurabilir ve mesajlaşabilirler.
