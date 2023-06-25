@@ -1,7 +1,3 @@
-# PHP-Chat-Uygulamasi
-
-
-
 Bu proje, kullanıcıların mesajlaşmasını sağlayan basit bir web uygulamasıdır. Uygulama dosyaları ve bileşenleri belirli işlevleri yerine getirmek için düzenlenmiştir. Ayrıca hata sayfaları da sağlanmıştır. Bu projeyi kullanarak kullanıcılar birbirleriyle iletişim kurabilir ve mesajlaşabilirler.
 Aşağıda Dosya İçeriği Bulunmaktadır.
 
