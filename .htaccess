@@ -1,0 +1,39 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^chat$ /chat.php [L]
+
+RewriteRule ^menu$ /users.php [L]
+
+RewriteRule ^register$ /register.php [L]
+
+RewriteRule ^login$ /login.php [L]
+
+RewriteRule ^Admin/status$ /Admin/status.php
+
+RewriteRule ^logout$ /API/logout-api.php [L]
+
+RewriteRule ^Admin$ /Admin/index.php [L]
+
+RewriteRule ^Admin/edit$ /Admin/edituser.php [L]
+
+RewriteRule ^Admin/ban$ /Admin/banned.php [L]
+
+RewriteRule ^Admin/unban$ /Admin/unbanuser.php [L]
+
+RewriteRule ^hata/401$ /errors/401.php [L]
+
+RewriteRule ^hata/403$ /errors/403.php [L]
+
+RewriteRule ^hata/404$ /errors/404.php [L]
+
+RewriteRule ^hata/500$ /errors/500.php [L]
+
+RewriteRule ^Admin/form$ /Admin/ban.php [L]
+
+ErrorDocument 401 /errors/401
+ErrorDocument 403 /errors/403
+ErrorDocument 404 /errors/404
+ErrorDocument 500 /errors/500
+
+DirectoryIndex users.php
